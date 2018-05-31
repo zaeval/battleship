@@ -29,10 +29,10 @@ GameManager::~GameManager()
 	}
 }
 bool GameManager::CheckCollision(
-	 int x,
-	int y,
-	 ROTATE_TYPE rotate,
-	 int size
+	 IN const int x,
+	 IN const int y,
+	 IN const ROTATE_TYPE rotate,
+	 IN const int size
 ) {
 	if (rotate == ROTATE_TYPE::HORIZONTAL && x+size > MAP_SIZE) {
 		return true;

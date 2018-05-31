@@ -31,10 +31,10 @@ public:
 	void		SetGameMode(IN const GAME_MODE gamemode);
 	Player *	GetInstance(IN const INSTANCE_TYPE instance_Type);
 	bool		CheckCollision(
-					 int x,
-					 int y,
-					 ROTATE_TYPE rotate,
-					 int size
+					 IN const int x,
+					 IN const int y,
+					 IN const ROTATE_TYPE rotate,
+					 IN const int size
 				);
 protected:
 	Player *	m_Attacker;
