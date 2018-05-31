@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Pane">
+      <UniqueIdentifier>{cf5b5493-0a3a-427a-8f31-875348311c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\pane">
+      <UniqueIdentifier>{5d79ae85-6d2f-4a2b-a5e4-bd23ceb084aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\App">
+      <UniqueIdentifier>{12cc1caa-1f20-49ac-bf3a-82ad091c7bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\App">
+      <UniqueIdentifier>{3d886ab7-73d7-4994-9872-f4ee4a64fe3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{e2d4101f-5c57-4ca9-90b8-a8c434042d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{e4d8dd4d-66b1-42a1-a20e-dd55378f6d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{73f7e379-a761-4be1-b3c2-55a38e36c5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{24a6d4d8-8404-4f00-8d22-055b8d9d9a72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleShipMap.h">
+      <Filter>헤더 파일\pane</Filter>
+    </ClInclude>
+    <ClInclude Include="Pane.h">
+      <Filter>헤더 파일\pane</Filter>
+    </ClInclude>
+    <ClInclude Include="StatPane.h">
+      <Filter>헤더 파일\pane</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPane.h">
+      <Filter>헤더 파일\pane</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleShipApp.h">
+      <Filter>헤더 파일\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Aircraft.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cruiser.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyer.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pane.cpp">
+      <Filter>소스 파일\Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleShipMap.cpp">
+      <Filter>소스 파일\Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="StatPane.cpp">
+      <Filter>소스 파일\Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPane.cpp">
+      <Filter>소스 파일\Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleShipApp.cpp">
+      <Filter>소스 파일\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Aircraft.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cruiser.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyer.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
